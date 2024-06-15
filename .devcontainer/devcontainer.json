@@ -1,0 +1,14 @@
+{
+  "name": "ts-test-server",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/usr/src/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "DigitalBrainstem.javascript-ejs-support"
+      ]
+    }
+  }
+}
